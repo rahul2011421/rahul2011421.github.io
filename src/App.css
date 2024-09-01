@@ -219,94 +219,94 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1em; /* Added padding to prevent content from touching the edges */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 1em; 
+  box-sizing: border-box; 
 }
 
 .proj-div section {
   display: flex;
   align-items: center;
   position: relative;
-  width: 90vw; /* Adjusted to be more responsive */
-  max-width: 600px; /* Set a max-width to prevent excessive stretching */
-  height: auto; /* Allow height to adjust based on content */
-  margin: 1em 0; /* Added margin for spacing */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  width: 90vw; 
+  max-width: 600px; 
+  height: auto; 
+  margin: 1em 0; 
+  box-sizing: border-box; 
 }
 
 .proj-photo, .proj-photo-alt, .proj-photo-alt img {
-  position: relative; /* Changed from absolute to relative for better flow */
-  height: auto; /* Allow height to adjust based on aspect ratio */
-  width: 100%; /* Use full width of the parent container */
-  max-height: 300px; /* Set a max-height for consistency */
+  position: relative; 
+  height: auto; 
+  width: 100%; 
+  max-height: 300px; 
   object-fit: cover;
   border-radius: 4px;
-  margin-right: 1em; /* Adjusted margin */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-right: 1em; 
+  box-sizing: border-box; 
 }
 
 .proj-text, .proj-text-alt {
-  position: relative; /* Changed from absolute to relative for better flow */
-  text-align: left; /* Unified text alignment */
+  position: relative;
+  text-align: left; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1em; /* Added margin for spacing */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-top: 1em; 
+  box-sizing: border-box; 
 }
 
 #proj-title {
   font-family: 'Tilt Neon', cursive;
-  font-size: 1.5em; /* Reduced size for better responsiveness */
+  font-size: 1.5em; 
   color: #313F52;
   margin: 0;
-  word-wrap: break-word; /* Ensure long words break to fit the container */
-}
+  word-wrap: break-word; 
 
 #proj-desc {
   background-color: #313F52;
   border-radius: 4px;
   color: white;
-  padding: 0.5em; /* Reduced padding for better fit */
-  margin: 0.5em 0; /* Added margin for spacing */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 0.5em; 
+  margin: 0.5em 0; 
+  box-sizing: border-box; 
 }
 
 #proj-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: center; /* Center items horizontally */
+  justify-content: center; 
   align-items: center; 
 }
 
 .proj-photo-alt img {
-  left: auto; /* Removed as it's not needed */
+  left: auto; 
 }
 
-/* Media query for small screens */
+
 @media (max-width: 600px) {
   #proj-container {
-    padding: 0.5em; /* Adjust padding for small screens */
+    padding: 0.5em; 
   }
 
   .proj-div section {
-    width: 95vw; /* Adjust width for small screens */
-    margin: 0.5em 0; /* Adjust margin for small screens */
+    width: 95vw; 
+    margin: 0.5em 0; 
   }
 
   .proj-photo, .proj-photo-alt, .proj-photo-alt img {
-    width: 100%; /* Ensure image fits within container */
-    max-height: 200px; /* Reduce max-height for small screens */
+    width: 100%; 
+    max-height: 200px; 
   }
 
   #proj-title {
-    font-size: 1.2em; /* Adjust font size for small screens */
+    font-size: 1.2em; 
   }
 
   #proj-desc {
-    padding: 0.5em; /* Adjust padding for small screens */
+    padding: 0.5em; 
   }
+}
 }
 
 
@@ -548,8 +548,3 @@ img {
   background-color: #0056b3; 
   transform: scale(1.1); 
 }
-
-
-
-
-                
