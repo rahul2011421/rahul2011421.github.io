@@ -147,6 +147,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 4px;
+    
   }
   #tsp.proj-text::before {
     content: '';
@@ -155,6 +156,7 @@
     width: 90vmin;
     opacity: 10%;
     background: url('./assets/images/tsp.png') center / cover;
+    z-index: -1;
   }
   #hotel.proj-text::before {
     content: '';
@@ -163,6 +165,7 @@
     width: 90vmin;
     opacity: 10%;
     background: url('./assets/images/hotel.jpg') center / cover;
+    z-index: -1;
   }
 
   .proj-text p {

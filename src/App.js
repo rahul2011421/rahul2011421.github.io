@@ -22,15 +22,19 @@ import redux from './assets/skills/redux.svg';
 import java from './assets/skills/java.svg';
 import springboot from './assets/skills/springboot.svg';
 import postman from './assets/skills/postman.svg'
-import microservices from './assets/skills/microservices.svg'
+
 
 
 
 import tsp from './assets/images/tsp.png'
 import hotel from './assets/images/hotel.jpg'
 
+
 import './App.css';
 import './media.css';
+import './status.css';
+import './experience.css';
+
 import reveal from './scroll';
 import hide from './scrollSmallerScreen';
 import { useState, useEffect } from 'react';
@@ -56,7 +60,7 @@ function App() {
             <section className='hamburger-section'>
               <ul>
                 <li><a href='#about-me'>About</a></li>
-                <li><a href='#about-me'>Experience</a></li>
+                <li><a href='#experience'>Experience</a></li>
                 <li><a href='#projects'>Projects</a></li>
                 <li><a href='#skills'>Skills</a></li>
                 <li><a href='#contact-info'>Contact</a></li>
@@ -67,11 +71,11 @@ function App() {
         <section className='menu-show'>
           <ul>
             <li><a href='#about-me'>About</a></li>
-            <li><a href='#about-me'>Experience</a></li>
+            <li><a href='#experience'>Experience</a></li>
             <li><a href='#projects'>Projects</a></li>
             <li><a href='#skills'>Skills</a></li>
             <li><a href='#contact-info'>Contact</a></li>
-            {/* <li><a href={res} target="_blank" rel="noopener noreferrer"><span class="label" id='resume'>Resume</span></a></li> */}
+            <li><a href={res} target="_blank" rel="noopener noreferrer"><span class="label" id='resume'>Resume</span></a></li>
           </ul>
         </section>
         <section className='menu-show'>
@@ -88,7 +92,19 @@ function App() {
           <section>
             <p id='intro-sent'>Hi, my name is</p>
             <h1>Rahul Yadav.</h1>
-            <p id='intro-p'>I’m a Software Developer with a strong passion for backend development. I find joy in bridging the gap between creativity and technology, turning innovative ideas into powerful software solutions. Thanks for visiting!!</p>
+            <p id='intro-p'>Hey, hii I’m a Software Developer with a strong passion for backend development. I find joy in bridging the gap between creativity and technology, turning innovative ideas into powerful software solutions. Thanks for visiting!!</p>
+          
+
+            <a class="status" href={res} target="_blank">
+            <div class="status__light">
+            <div class="status__light__ring"></div>
+            <div class="status__light__led"></div>
+            </div>
+            <div class="status__message">Seeking new opportunities to apply my backend skills!</div>
+            </a>
+
+
+
           </section>
           <section>
             <img src={prof} className='prof' alt='prof-pic' />
@@ -114,7 +130,7 @@ function App() {
               I believe that technology should simplify life and bring value to users, and I am committed to building solutions that are impactful.
               <br/>
               <br/>
-              I am currently employed as a Graduate Software Developer Engineer at Maveric Systems Limited.
+              I am currently employed as a Graduate Software Developer Engineer at <a class="underline-link" href="https://maveric-systems.com/" target="_blank">Maveric Systems Limited</a>.
               <br/>
               <br/>
               When I'm not coding, I enjoy playing badminton, swimming, talking about cricket or learning something new.
@@ -122,26 +138,80 @@ function App() {
           </section>
         </div>
 
+  
+
+
+        <div id="experience">
+    <section id="exp-container">
+        <h2>Experience</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <div class="timeline-icon">1</div>
+                <div class="timeline-content">
+                    <div class="job__time">Aug 2023 - Present</div>
+                    <div class="job__company">
+                        <a href="https://maveric-systems.com" target="_blank" rel="noopener noreferrer">Maveric Systems Limited</a>
+                    </div>
+                    <div class="job__position">Graduate Software Development Engineer</div>
+                    <div class="job__details">
+                        <p>• Designed and implemented a mail notification system using the Graph API, enabling real-time email alerts for improved user engagement.</p>
+                        <p>• Implemented an ELK Stack to monitor system logs and enhance system stability. This helped reduce the mean time to resolution by 30% and resulted in a 15% increase in application performance.</p>
+                        <p>• Designed and implemented REST APIs using Java & Spring Boot, facilitating seamless communication between the application components.</p>
+                        <p>• Improved code quality and coverage analysis by implementing SonarQube.</p>
+                        <p>• Developed comprehensive unit test cases with JUnit and Mockito, achieving over 85% code coverage</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-icon">2</div>
+                <div class="timeline-content">
+                    <div class="job__time">Feb 2022 - Mar 2022</div>
+                    <div class="job__company">
+                        <a href="https://www.linkedin.com/company/quanti-%CF%87/" target="_blank" rel="noopener noreferrer">Quantiχ (Mathematics and Statistics) Club </a>
+                    </div>
+                    <div class="job__position">Vice President</div>
+                    <div class="job__details">
+                        <p> Organized a week-long World Statistics Day event and led educational activities for over 150 students at Alliance
+                        University through the Quantix Club.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+</div>
+
+
+
+
+
+
         <div className='projects reveal' id='projects'>
           <section id='proj-container'>
             <h2>Projects</h2>
             <div className='proj-div'>
               <section>
-                {/* <a href='https://project_name.herokuapp.com/' className='proj-photo'> */}
-                  <img src={tsp} alt='slate' className='proj-photo' />
-                {/* </a> */}
+               
+                  <img src={tsp} alt='tsp' className='proj-photo' />
+                
                 <div className='proj-text' id='tsp'>
                   <h3 id='proj-title'>Talent Share Portal(TSP)</h3>
                   <p id='proj-desc'>
                   TSP is a mentorship platform that supports continuous learning and skill advancement. It offers profiles for mentors and mentees, where mentors guide learners through tech stacks and comprehensive training.
-                  <br/>
-                  <br/>
                   Collaborated with my team and took the initiative to design microservices and APIs, improving communication and aligning with our project's core objectives.
                   </p>
                   <p id='proj-tech'>
-                    Java Springboot Microservices REST-API's MYSQL HTML CSS JavaScript TypeScript React.js 
-    
+                  <span class="tech-item">Java</span>
+                  <span class="tech-item">Springboot</span>
+                  <span class="tech-item">Microservices</span>
+                  <span class="tech-item">REST-API's</span>
+                  <span class="tech-item">MYSQL</span>
+                  <span class="tech-item">HTML</span>
+                  <span class="tech-item">CSS</span>
+                  <span class="tech-item">JavaScript</span>
+                  <span class="tech-item">TypeScript</span>
+                  <span class="tech-item">React.js</span>
                   </p>
+
                   <div>
                     <a href='https://github.com/rahul2011421/Talent-share-Portal-Application' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a>
                     {/* <a href='https://project_name.herokuapp.com/' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> */}
@@ -159,7 +229,11 @@ function App() {
                     
                   </p>
                   <p id='proj-tech'>
-                    Java Springboot Microservices MYSQL Postman
+                  <span class="tech-item">Java</span>
+                  <span class="tech-item">Springboot</span>
+                  <span class="tech-item">Microservices</span>
+                  <span class="tech-item">MYSQL</span>
+                  <span class="tech-item">Postman</span>
                   </p>
                   <div>
                     <a href='https://github.com/rahul2011421/Hotel-Ratings-Application-with-Microservices' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a>
@@ -172,61 +246,114 @@ function App() {
           </section>
         </div>
 
-        <div className='skills reveal' id='skills'>
-          <section>
-            <h2>Skills</h2>
-          </section>
-          <section className='skills-icons'>
-            <div id='skillsdiv'>
-              <img id='skill' src={js} alt='skills' />
-              <img id='skill-1' src={py} alt='skills' />
-              <img id='skill' src={css} alt='skills' />
-              <img id='skill-1' src={html} alt='skills' />
-              <img id='skill' src={reacts} alt='skills' />
-              <img id='skill-1' src={redux} alt='skills' />
-              <img id='skill' src={ex} alt='skills' />
-              <img id='skill-1' src={node} alt='skills' />
-              <img id='skill' src={flask} alt='skills' />
-              <img id='skill-1' src={postgresql} alt='skills' />
-              <img id='skill-1' src={git} alt='skills' />
-              <img id='skill-1' src={heroku} alt='skills' />
-              
-              <img id='skill' src={docker} alt='skills' />
+       
+
              
-              <img id='skill' src={github} alt='skills' />
-              <img id='skill' src={java} alt='skills' />
-              <img id='skill' src={springboot} alt='skills' />
-              <img id='skill' src={microservices} alt='skills' />
-              <img id='skill' src={postman} alt='skills' />
-              
+       
 
-              
-            </div>
-          </section>
-        </div>
 
-        <div className='contact-info reveal' id='contact-info'>
-          <section>
-            <h2>Get in Touch</h2>
-          </section>
-          <section className='contact-info-text'>
-            <p>
-              I'm currently looking for a <span>backend software developer</span> role, and would love to continue my journey with you!
-            </p>
-          </section>
-          <section className='socials'>
-            <a href="mailto: rahuuly65@gmail.com" target="_blank" rel="noopener noreferrer" id='contact-icons' className="fa-solid fa-envelope"></a>
-            <a href="https://www.linkedin.com/in/rahul2011421/" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-linkedin-in"></a>
-            <a href="https://github.com/rahul2011421" target="_blank" rel="noopener noreferrer" id='contact-icons' class="icon brands fa-github"></a>
-          </section>
-          <section className='res-container'>
-            <a href={res} target="_blank" rel="noopener noreferrer"><span class="label" id='resume-bottom'>Resume</span></a>
-          </section>
-        </div>
-        <a className="back-up" href="#">Back to Top</a>
+<div className='skills reveal' id='skills'>
+  <section>
+    <h2>Skills</h2>
+  </section>
+  
+  
+  <div class="skill-details">
+  <div class="skill-category">
+    <h3>PROGRAMMING</h3>
+    <ul>
+      <li>Data Structures</li>
+      <li>Algorithms</li>
+      <li>OOPS</li>
+      <li>RESTful APIs</li>
+      <li>Microservices</li>
+    </ul>
+  </div>
+
+
+  <div class="skill-category">
+    <h3>LANGUAGES</h3>
+    <ul>
+      <li>Java</li>
+      <li>MYSQL</li>
+    </ul>
+  </div>
+
+  <div class="skill-category">
+    <h3>TOOLS</h3>
+    <ul>
+      <li>GitHub</li>
+      <li>Postman</li>
+      <li>Swagger</li>
+      <li>Docker</li>
+      <li>Jenkins</li>
+    </ul>
+  </div>
+
+  <div class="skill-category">
+    <h3>FRAMEWORKS</h3>
+    <ul>
+      <li>Spring Boot</li>
+    </ul>
+  </div>
+ 
+</div>
+
+
+  
+  <section className='skills-icons'>
+    <div id='skillsdiv'>
+      <img id='skill' src={js} alt='skills' />
+      <img id='skill-1' src={py} alt='skills' />
+      <img id='skill' src={css} alt='skills' />
+      <img id='skill-1' src={java} alt='skills'/>
+      <img id='skill-1' src={html} alt='skills' />
+      <img id='skill' src={reacts} alt='skills' />
+      <img id='skill-1' src={redux} alt='skills' />
+      <img id='skill' src={ex} alt='skills' />
+      <img id='skill-1' src={node} alt='skills' />
+      <img id='skill' src={flask} alt='skills' />
+      <img id='skill' src={springboot} alt='skills' />
+      <img id='skill-1' src={postgresql} alt='skills' />
+      <img id='skill-1' src={git} alt='skills' />
+      <img id='skill-1' src={heroku} alt='skills' />
+      <img id='skill' src={docker} alt='skills' />
+      <img id='skill-1' src={postman} alt='skills' />
+      <img id='skill' src={github} alt='skills' />
+      
+      
+    </div>
+  </section>
+</div>
+
+
+
+<div className='contact-info reveal' id='contact-info'>
+  <section>
+    <h2>Get in Touch</h2>
+  </section>
+  <section className='contact-info-text'>
+    <p>
+      I'm currently looking for a <span>backend software developer</span> role, and would love to continue my journey with you!
+    </p>
+  </section>
+  <section className='socials'>
+    <a href="mailto: rahuuly65@gmail.com" target="_blank" rel="noopener noreferrer" id='contact-icons' className="fa-solid fa-envelope"></a>
+    <a href="https://www.linkedin.com/in/rahul2011421/" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-linkedin-in"></a>
+    <a href="https://github.com/rahul2011421" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-github"></a>
+    <a href="https://www.instagram.com/rahuul_65/" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-instagram"></a>
+  </section>
+  <section className='res-container'>
+    <a href={res} target="_blank" rel="noopener noreferrer" className="resume-link">
+      <span id='resume-bottom'>Resume</span>
+    </a>
+  </section>
+</div>
+<a className="back-up" href="#top">
+  <i className="fas fa-arrow-up"></i>
+</a>
       </body>
     </div>
   );
 }
-
 export default App;
