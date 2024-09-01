@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.03e925cd.css",
-    "main.js": "/static/js/main.51922d6c.js",
+    "main.css": "/static/css/main.4ace7ce5.css",
+    "main.js": "/static/js/main.2e4e585b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/wave.png": "/static/media/wave.09bb19b83a7f46bce09b.png",
     "static/media/tsp.png": "/static/media/tsp.78d3be30b8a2dbefabcb.png",
     "static/media/middle.jpeg": "/static/media/middle.c7b3c8e8b15eb1569587.jpeg",
     "static/media/github.svg": "/static/media/github.0889aa76f22da681246cf25e147f39b1.svg",
     "static/media/ex.png": "/static/media/ex.41296e74fbbb8841eac2.png",
+    "static/media/rahul_yadav_RESUME.pdf": "/static/media/rahul_yadav_RESUME.b831ce2b4e90aa7c8f74.pdf",
     "static/media/flask.svg": "/static/media/flask.14005a736e74f5643f40c3f1f98c2e67.svg",
-    "static/media/rahul_yadav_RESUME.pdf": "/static/media/rahul_yadav_RESUME.744cfd9d0cf4cf783647.pdf",
     "static/media/docker.svg": "/static/media/docker.f09666534f8156bbc77a00bca4dcd8f5.svg",
     "static/media/git.svg": "/static/media/git.e90e320c5c6e13d079bc7efc8e571194.svg",
     "static/media/hotel.jpg": "/static/media/hotel.21c75434ee438ef3f7b1.jpg",
-    "static/media/microservices.svg": "/static/media/microservices.3f98b6485ad30ac750ea1612f01933a6.svg",
     "static/media/logo.png": "/static/media/logo.75ad171eaf9702156179.png",
     "static/media/postgresql.svg": "/static/media/postgresql.af1eefab03322d8c1787f8e1598e2074.svg",
     "static/media/react.svg": "/static/media/react.ecdb06ed0c143491b2ef3e0958a83c31.svg",
-    "static/media/postman.svg": "/static/media/postman.83c1fc69d6201f47bb5816fb12d58e99.svg",
-    "static/media/springboot.svg": "/static/media/springboot.6f55e552346cd4f5c29f15d96f6b2077.svg",
+    "static/media/postman.svg": "/static/media/postman.6d20d6f3778edbf102baa55be4e6f7a5.svg",
+    "static/media/springboot.svg": "/static/media/springboot.5f19bc82eec2b298cc44e3057a9668d2.svg",
     "static/media/node.svg": "/static/media/node.cc797f776e34f70c2b2e6b86175ad2d5.svg",
     "static/media/html.svg": "/static/media/html.4ae5f6ea8b925254b557422d040487f1.svg",
     "static/media/java.svg": "/static/media/java.7a18b8003b73bd3632c51c9616f00f05.svg",
@@ -28,12 +27,12 @@
     "static/media/js.svg": "/static/media/js.00e0f0a8d377aed9f0d06397f8586b82.svg",
     "static/media/heroku.svg": "/static/media/heroku.d81dd9636d9d28b6a198a609a9ba2f1e.svg",
     "index.html": "/index.html",
-    "main.03e925cd.css.map": "/static/css/main.03e925cd.css.map",
-    "main.51922d6c.js.map": "/static/js/main.51922d6c.js.map",
+    "main.4ace7ce5.css.map": "/static/css/main.4ace7ce5.css.map",
+    "main.2e4e585b.js.map": "/static/js/main.2e4e585b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03e925cd.css",
-    "static/js/main.51922d6c.js"
+    "static/css/main.4ace7ce5.css",
+    "static/js/main.2e4e585b.js"
   ]
 }
