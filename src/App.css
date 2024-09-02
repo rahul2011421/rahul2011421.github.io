@@ -261,9 +261,9 @@ img {
   color: #313F52;
   margin: 0;
   word-wrap: break-word; 
-
+}
 #proj-desc {
-  background-color: #313F52;
+  background-color: #020c1a;
   border-radius: 4px;
   color: white;
   padding: 0.5em; 
@@ -307,7 +307,7 @@ img {
     padding: 0.5em; 
   }
 }
-}
+
 
 
 
