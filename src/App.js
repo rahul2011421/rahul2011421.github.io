@@ -165,7 +165,7 @@ function App() {
             <li class="timeline-item">
                 <div class="timeline-icon">2</div>
                 <div class="timeline-content">
-                    <div class="job__time">Feb 2022 - Mar 2022</div>
+                    <div class="job__time">May 2022 - April 2023</div>
                     <div class="job__company">
                         <a href="https://www.linkedin.com/company/quanti-%CF%87/" target="_blank" rel="noopener noreferrer">Quantiχ (Mathematics and Statistics) Club </a>
                     </div>
