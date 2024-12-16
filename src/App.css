@@ -479,12 +479,12 @@ img {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  gap: 13px; 
+  gap: 10px; 
   margin-bottom: 20px;
 }
 
 .socials a {
-  font-size: 6vmin; 
+  font-size: 8vmin; 
   
   transition: transform 0.3s, color 0.3s;
 }
@@ -504,7 +504,7 @@ img {
 
 .socials a {
   font-size: 4vmin;
-  margin: 0 .5em;
+  margin: 0.5em;
 }
 
 
