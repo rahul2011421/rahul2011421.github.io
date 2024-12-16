@@ -238,7 +238,7 @@ img {
   position: relative; 
   height: auto; 
   width: 100%; 
-  max-height: 300px; 
+  max-height: 400px; 
   object-fit: cover;
   border-radius: 4px;
   margin-right: 1em; 
@@ -257,24 +257,25 @@ img {
 
 #proj-title {
   font-family: 'Tilt Neon', cursive;
-  font-size: 1.5em; 
+  font-size: 1em; 
   color: #313F52;
-  margin: 0;
+  margin: 0.1em;
   word-wrap: break-word; 
 }
 #proj-desc {
   background-color: #020c1a;
   border-radius: 4px;
+  font-size: 0.75em; 
   color: white;
   padding: 0.5em; 
-  margin: 0.5em 0; 
+  margin: 0.10em; 
   box-sizing: border-box; 
 }
 
 #proj-tech {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 1px;
   justify-content: center; 
   align-items: center; 
 }
