@@ -268,15 +268,15 @@ img {
   font-size: 0.5em; 
   color: white;
   padding: 0.5em; 
-  margin: 0.10em; 
+  margin: -0.75em; 
   box-sizing: border-box; 
 }
 
 #proj-tech {
   display: flex;
   flex-wrap: wrap;
-  gap: 1px;
-  font-size: 0.25em; 
+  gap: -1px;
+  font-size: -5em; 
   justify-content: center; 
   align-items: center; 
 }
@@ -293,20 +293,20 @@ img {
 
   .proj-div section {
     width: 95vw; 
-    margin: 0.5em 0; 
+    margin: 0.25em; 
   }
 
   .proj-photo, .proj-photo-alt, .proj-photo-alt img {
     width: 100%; 
-    max-height: 200px; 
+    max-height: 300px; 
   }
 
   #proj-title {
-    font-size: 1.2em; 
+    font-size: 0.75em; 
   }
 
   #proj-desc {
-    padding: 0.5em; 
+    padding: 1em; 
   }
 }
 
