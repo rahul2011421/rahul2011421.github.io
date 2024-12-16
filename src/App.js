@@ -101,7 +101,7 @@ function App() {
             <div class="status__light__ring"></div>
             <div class="status__light__led"></div>
             </div>
-            <div class="status__message">Seeking new opportunities to apply my backend skills!</div>
+            <div class="status__message">Seeking new opportunities to apply my fullstack skills!</div>
             </a>
 
 
