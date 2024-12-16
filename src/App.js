@@ -295,6 +295,7 @@ function App() {
     <h3>LANGUAGES</h3>
     <ul>
       <li>Java</li>
+      <li>JavaScript</li>
       <li>MYSQL</li>
     </ul>
   </div>
