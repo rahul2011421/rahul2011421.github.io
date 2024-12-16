@@ -309,10 +309,6 @@ img {
 }
 
 
-
-
-
-
 .tech-item {
   display: inline-block;
   margin: 3px 3px 3px 0;
@@ -331,23 +327,22 @@ img {
 }
 
 
+
+
 .skills {
   display: flex;
   flex-direction: column;
-
   width: 100%;
-  /* position: relative; */
+  
 }
 
 .skills-icons {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
 #skillsdiv {
-  /* position: absolute; */
   width: 70%;
   text-align: center;
 }
@@ -456,7 +451,6 @@ img {
 .contact-info {
   display: flex;
   flex-direction: column;
-
   margin-top: 20vmin;
   margin-bottom: 30vmin;
 }
@@ -481,20 +475,38 @@ img {
   font-size: 1.2em;
 }
 
-#contact-icons {
+.socials {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 13px; 
+  margin-bottom: 20px;
+}
+
+.socials a {
+  font-size: 6vmin; 
+  
+  transition: transform 0.3s, color 0.3s;
+}
+
+.socials a:hover {
+  color: #0056b3; 
+  transform: scale(1.2); 
+}
+
+#resume-bottom {
+  
+  font-size: 16px;
+  font-weight: bold;
+  
+  
+}
+
+.socials a {
   font-size: 4vmin;
   margin: 0 .5em;
 }
 
-#resume-bottom {
-  display: none;
-}
-
-
-
-.socials {
-  margin-bottom: 20px; 
-}
 
 
 .resume-link {

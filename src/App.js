@@ -28,6 +28,7 @@ import postman from './assets/skills/postman.svg'
 
 import tsp from './assets/images/tsp.png'
 import hotel from './assets/images/hotel.jpg'
+import blockchain from './assets/images/blockchain.png'
 
 
 import './App.css';
@@ -148,15 +149,14 @@ function App() {
             <li class="timeline-item">
                 <div class="timeline-icon">1</div>
                 <div class="timeline-content">
-                    <div class="job__time">Aug 2023 - Present</div>
+                    <div class="job__time">Aug 2023 - August 2024</div>
                     <div class="job__company">
                         <a href="https://maveric-systems.com" target="_blank" rel="noopener noreferrer">Maveric Systems Limited</a>
                     </div>
                     <div class="job__position">Graduate Software Development Engineer</div>
-                    <div class="job__details">
+                    <div class="job__details"><p>• Designed and implemented REST APIs using Java & Spring Boot, facilitating seamless communication between the application components.</p>
                         <p>• Designed and implemented a mail notification system using the Graph API, enabling real-time email alerts for improved user engagement.</p>
                         <p>• Implemented an ELK Stack to monitor system logs and enhance system stability. This helped reduce the mean time to resolution by 30% and resulted in a 15% increase in application performance.</p>
-                        <p>• Designed and implemented REST APIs using Java & Spring Boot, facilitating seamless communication between the application components.</p>
                         <p>• Improved code quality and coverage analysis by implementing SonarQube.</p>
                         <p>• Developed comprehensive unit test cases with JUnit and Mockito, achieving over 85% code coverage</p>
                     </div>
@@ -213,19 +213,18 @@ function App() {
                   </p>
 
                   <div>
-                    <a href='https://github.com/rahul2011421/Talent-share-Portal-Application' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a>
-                    {/* <a href='https://project_name.herokuapp.com/' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> */}
+                    {/*<a href='https://github.com/rahul2011421/Talent-share-Portal-Application' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a> */}
+                    <a href='https://github.com/rahul2011421/Talent-share-Portal-Application' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> 
                   </div>
                 </div>
               </section>
+
               <section>
-                {/* <a href='https://project_name.herokuapp.com/' className='proj-photo'> */}
                   <img src={hotel} alt='behrbnb' className='proj-photo' />
-                {/* </a> */}
                 <div className='proj-text' id='hotel'>
                   <h3 id='proj-title'>Hotel Ratings Application</h3>
                   <p id='proj-desc'>
-                  Developed a backend Hotel Rating Application that enables users to rate and review registered hotels. Implemented key features such as user, rating, and hotel services using Eureka service, API Gateway, Feign Client, Config Server, Circuit Breaker, Retry, Rate Limiter with Resilience4J, and OAuth.
+                  Developed a backend Hotel Rating Application that enables users to rate and review registered hotels. Implemented key features such as user, rating, and hotel services using Eureka service, API Gateway, Feign Client, Config Server, Circuit Breaker, Retry, and Rate Limiter with Resilience4J.
                     
                   </p>
                   <p id='proj-tech'>
@@ -236,9 +235,30 @@ function App() {
                   <span class="tech-item">Postman</span>
                   </p>
                   <div>
-                    <a href='https://github.com/rahul2011421/Hotel-Ratings-Application-with-Microservices' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a>
-                    {/* <a href='https://project_name.herokuapp.com/' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> */}
+                    {/*<a href='https://github.com/rahul2011421/Hotel-Ratings-Application-with-Microservices' id='proj-icons' className='icon brands fa-github' target="_blank" rel="noopener noreferrer"></a> */}
+                    <a href='https://github.com/rahul2011421/Hotel-Ratings-Application-with-Microservices' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> 
                   </div>
+                </div>
+              </section>
+
+              <section>
+                  <img src={blockchain} alt='behrbnb' className='proj-photo' />
+                <div className='proj-text' id='blockchain'>
+                  <h3 id='proj-title'>Decentralized E-Voting System Using Blockchain</h3>
+                  <p id='proj-desc'>
+                  Developed a decentralized voting system using blockchain technology to improve security, transparency, and user engagement. Utilized React.js for the front-end, Node.js for the backend, Solidity for smart contracts, and Ganache for local blockchain testing. Addressed voting fraud and enhanced efficiency over traditional methods while considering privacy, security, and regulatories.
+                  </p>
+                  <p id='proj-tech'>
+                  <span class="tech-item">React.js</span>
+                  <span class="tech-item">Solidity</span>
+                  <span class="tech-item">Node.js</span>
+                  <span class="tech-item">Ganache</span>
+                  <span class="tech-item">HTML</span>
+                  <span class="tech-item">CSS</span>
+                  </p>
+                  <div>
+                    <a href='https://drive.google.com/file/d/13phhfNmN9OaMyqb2N_ZlM1m4qmZ8S3fF/view?usp=drive_link' id='proj-icons' className="fa-solid fa-arrow-up-right-from-square" target="_blank" rel="noopener noreferrer"></a> 
+                </div>
                 </div>
               </section>
         
@@ -334,18 +354,18 @@ function App() {
   </section>
   <section className='contact-info-text'>
     <p>
-      I'm currently looking for a <span>backend software developer</span> role, and would love to continue my journey with you!
+      I'm currently looking for a <span>full stack development</span> role, and would love to continue my journey with you!
     </p>
+    </section>
+  <section className="socials">
+    <a href="mailto:rahuuly65@gmail.com" target="_blank" rel="noopener noreferrer" className="fa-solid fa-envelope"></a>
+    <a href="https://www.linkedin.com/in/rahul2011421/" target="_blank" rel="noopener noreferrer" className="fab fa-linkedin-in"></a>
+    <a href="https://github.com/rahul2011421" target="_blank" rel="noopener noreferrer" className="fab fa-github"></a>
+    <a href="https://www.instagram.com/rahuul_65/" target="_blank" rel="noopener noreferrer" className="fab fa-instagram"></a>
   </section>
-  <section className='socials'>
-    <a href="mailto: rahuuly65@gmail.com" target="_blank" rel="noopener noreferrer" id='contact-icons' className="fa-solid fa-envelope"></a>
-    <a href="https://www.linkedin.com/in/rahul2011421/" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-linkedin-in"></a>
-    <a href="https://github.com/rahul2011421" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-github"></a>
-    <a href="https://www.instagram.com/rahuul_65/" target="_blank" rel="noopener noreferrer" id='contact-icons' className="icon brands fa-instagram"></a>
-  </section>
-  <section className='res-container'>
+  <section className="res-container">
     <a href={res} target="_blank" rel="noopener noreferrer" className="resume-link">
-      <span id='resume-bottom'>Resume</span>
+      <span id="resume-bottom">Resume</span>
     </a>
   </section>
 </div>
