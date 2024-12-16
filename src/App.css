@@ -229,8 +229,8 @@ img {
   position: relative;
   width: 100vw; 
   max-width: 700px; 
-  height: auto; 
-  margin: 1em 0; 
+  height: flex; 
+  margin: 1em; 
   box-sizing: border-box; 
 }
 
