@@ -93,7 +93,7 @@ function App() {
           <section>
             <p id='intro-sent'>Hi, my name is</p>
             <h1>Rahul Yadav.</h1>
-            <p id='intro-p'>Hey, hii I’m a Software Developer with a strong passion for backend development. I find joy in bridging the gap between creativity and technology, turning innovative ideas into powerful software solutions. Thanks for visiting!!</p>
+            <p id='intro-p'>Hey, I’m a Software Developer with a strong passion for backend development. I find joy in bridging the gap between creativity and technology, turning innovative ideas into powerful software solutions. Thanks for visiting!!</p>
           
 
             <a class="status" href={res} target="_blank">
@@ -101,7 +101,7 @@ function App() {
             <div class="status__light__ring"></div>
             <div class="status__light__led"></div>
             </div>
-            <div class="status__message">Seeking new opportunities to apply my fullstack skills!</div>
+            <div class="status__message">Seeking new opportunities to apply my skills!</div>
             </a>
 
 
@@ -130,11 +130,11 @@ function App() {
               <br/>
               I believe that technology should simplify life and bring value to users, and I am committed to building solutions that are impactful.
               <br/>
-              <br/>
+              {/* <br/>
               I am currently employed as a Graduate Software Developer Engineer at <a class="underline-link" href="https://maveric-systems.com/" target="_blank">Maveric Systems Limited</a>.
+              <br/> */}
               <br/>
-              <br/>
-              When I'm not coding, I enjoy playing badminton, swimming, talking about cricket or learning something new.
+              When I'm not coding, I enjoy playing badminton, swimming, talking about cricket or spending time with my family.
             </p>
           </section>
         </div>
@@ -146,14 +146,30 @@ function App() {
     <section id="exp-container">
         <h2>Experience</h2>
         <ul class="timeline">
-            <li class="timeline-item">
+        <li class="timeline-item">
                 <div class="timeline-icon">1</div>
                 <div class="timeline-content">
-                    <div class="job__time">Aug 2023 - August 2024</div>
+                    <div class="job__time">January 2025 - March 2025</div>
                     <div class="job__company">
-                        <a href="https://maveric-systems.com" target="_blank" rel="noopener noreferrer">Maveric Systems Limited</a>
+                        <a href="https://www.linkedin.com/school/iit-bhilai/" target="_blank" rel="noopener noreferrer">Indian Institute of Technology(IIT), Bhilai </a>
                     </div>
-                    <div class="job__position">Graduate Software Development Engineer</div>
+                    <div class="job__position">Project Assistant [Java, Spring Boot, Microservices, MySQL, Blockchain]</div>
+                    <div class="job__details">
+                        <p>• Developed Rest APIs for user registration, login, and user profile management, incorporating various CRUD operations
+                        for enhanced user experience.</p>
+                        <p>• Executed reset and forgot password functionalities for users, integrating email verification via OTP.</p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="timeline-item">
+                <div class="timeline-icon">2</div>
+                <div class="timeline-content">
+                    <div class="job__time">August 2023 - August 2024</div>
+                    <div class="job__company">
+                        <a href="https://maveric-systems.com" target="_blank" rel="noopener noreferrer">Maveric Systems Limited (Bengaluru)</a>
+                    </div>
+                    <div class="job__position">Graduate Software Development Engineer [Java, Spring Boot, Microservices, MySQL]</div>
                     <div class="job__details"><p>• Designed and implemented REST APIs using Java & Spring Boot, facilitating seamless communication between the application components.</p>
                         <p>• Designed and implemented a mail notification system using the Graph API, enabling real-time email alerts for improved user engagement.</p>
                         <p>• Implemented an ELK Stack to monitor system logs and enhance system stability. This helped reduce the mean time to resolution by 30% and resulted in a 15% increase in application performance.</p>
@@ -162,17 +178,32 @@ function App() {
                     </div>
                 </div>
             </li>
+
             <li class="timeline-item">
-                <div class="timeline-icon">2</div>
+                <div class="timeline-icon">3</div>
                 <div class="timeline-content">
                     <div class="job__time">May 2022 - April 2023</div>
                     <div class="job__company">
-                        <a href="https://www.linkedin.com/company/quanti-%CF%87/" target="_blank" rel="noopener noreferrer">Quantiχ (Mathematics and Statistics) Club </a>
+                        <a href="https://www.linkedin.com/company/quanti-%CF%87/" target="_blank" rel="noopener noreferrer">Quantiχ (Mathematics and Statistics) Club (Bengaluru)</a>
                     </div>
                     <div class="job__position">Vice President</div>
                     <div class="job__details">
                         <p> Organized a week-long World Statistics Day event and led educational activities for over 150 students at Alliance
                         University through the Quantix Club.</p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="timeline-item">
+                <div class="timeline-icon">4</div>
+                <div class="timeline-content">
+                    <div class="job__time">August 2019 - June 2023</div>
+                    <div class="job__company">
+                        <a href="https://www.alliance.edu.in/" target="_blank" rel="noopener noreferrer">Alliance University (Bengaluru)</a>
+                    </div>
+                    <div class="job__position">Studentv - BTech(Computer Science & Engineering ) </div>
+                    <div class="job__details">
+                        <p>Grade: 80.7%</p>
                     </div>
                 </div>
             </li>
